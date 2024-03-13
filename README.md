@@ -7,6 +7,8 @@ Enhancing Gait Video Analysis in Neurodegenerative Diseases by Knowledge Augment
 * Dementia subtyping
   https://anonymous.4open.science/w/GaitAnalysisVLM-CC83/diag.html
 ## Per-class clinical gait notions
+We employ specific clinical gait notions to develop per-class learnable prompts for prompt tuning. These notions have been generated using ChatGPT-4, then subsequently filtered, modified, and validated by a neurologist.
+
 * MDS-UPDRS Gait Scoring
   <details>
   <summary><b>Normal</b></summary>
@@ -40,6 +42,8 @@ Enhancing Gait Video Analysis in Neurodegenerative Diseases by Knowledge Augment
   </details>
 
 ## Per-class automatic prompts
+We extract keywords from clinical gait notions to make per-class automatic prompts.
+
 * MDS-UPDRS Gait Scoring
   <details>
   <summary><b>Normal</b></summary>
