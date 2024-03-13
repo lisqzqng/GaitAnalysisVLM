@@ -9,7 +9,8 @@ Enhancing Gait Video Analysis in Neurodegenerative Diseases by Knowledge Augment
     title="inlineUPDRS"
     width="300"
     height="300"
-    src="https://anonymous.4open.science/w/GaitAnalysisVLM-CC83/updrs.html"></iframe>
+    src="https://anonymous.4open.science/w/GaitAnalysisVLM-CC83/updrs.html">
+</iframe>
 
 
 * <a href="https://anonymous.4open.science/w/GaitAnalysisVLM-CC83/diag.html" target="_blank">Dementia subtyping</a>
