@@ -9,7 +9,7 @@ Enhancing Gait Video Analysis in Neurodegenerative Diseases by Knowledge Augment
 ## Per-class clinical gait notions
 We employ specific clinical gait notions to develop per-class learnable prompts for prompt tuning. These notions have been generated using ChatGPT-4, then subsequently filtered, modified, and validated by a neurologist.
 
-* MDS-UPDRS Gait Scoring
+* **MDS-UPDRS Gait Scoring**
   <details>
   <summary><b>Normal</b></summary>
   Normal gait indicates normal gait without any signs of impairment. As follows are the key features and their explanations. Normal Gait Pattern: The individual walks with a normal gait pattern, which includes regular, rhythmic steps with a typical step length and height. No Shuffling or Dragging of Feet: There is no shuffling or dragging of feet while walking. Normal Arm Swing: Both arms swing naturally and symmetrically while walking, with no reduction in arm swing. No Balance Issues: The person does not have any balance problems while walking and can easily navigate turns and corners. No Assistive Device Required: There is no need for any assistive devices like a cane or walker for walking. Normal Speed and Rhythm: Walking speed and rhythm are within the normal range, and the person can easily keep pace with peers in a walking situation. No Freezing of Gait: There are no episodes of freezing of gait, where the person temporarily feels as though their feet are glued to the floor. No Difficulty with Dual Tasking: The individual can walk without difficulty while performing another task, such as talking or carrying objects.
@@ -27,7 +27,7 @@ We employ specific clinical gait notions to develop per-class learnable prompts 
   Moderate gait impairment indicates moderate impairment in gait. It's more severe than mild gait impairment. As follows are the key features and their explanations. Moderate Impairment: The individual's gait is noticeably impaired, and these impairments are consistent and evident. Marked Slowness or Shuffling: The person may walk with a marked slowness. The shuffling quality of the gait can be more pronounced, with reduced step height and length. Frequent Freezing Episodes: Freezing of gait, a temporary, involuntary inability to move, may occur, especially while starting to walk or turning. Use of Assistive Devices: The individual might require a cane, walker, or other assistive devices or assistant for safe ambulation. Irregular Steps and Reduced Arm Swing: Steps may be irregular in rhythm and length, and arm swing is usually significantly reduced or absent. Possible Balance Problems: There might be issues with balance that are more apparent when walking, increasing the risk of falls. Independent Walking May Still Be Possible: Despite the moderate impairment, the person might still be able to walk independently, despite the difficulties.
   </details>
 
-* MDS-UPDRS Gait Scoring
+* **Dementia subtyping**
   <details>
   <summary><b>Healthy</b></summary>
   Normal gait has the following features. Stability: healthy individuals usually have stable gait patterns with consistent stride lengths and minimal sway. Stride Length: healthy individuals tend to have longer stride lengths than in DLB and AD. Cadence: healthy people maintain a regular and consistent cadence. Speed: walking speed is generally faster and more consistent than in DLB and AD. Symmetry: gait is symmetrical with even distribution of weight and movement. Rhythm: rhythm of walking is consistent, with predictable heel-to-toe sequences. Arm Swing: there is natural arm swing in synchronisation with leg movements.
@@ -44,7 +44,7 @@ We employ specific clinical gait notions to develop per-class learnable prompts 
 ## Per-class automatic prompts
 We extract keywords from clinical gait notions to make per-class automatic prompts.
 
-* MDS-UPDRS Gait Scoring
+* **MDS-UPDRS Gait Scoring**
   <details>
   <summary><b>Normal</b></summary>
   Normal Gait Pattern, No Shuffling or Dragging of Feet, Normal Arm Swing, No Balance Issues, No Assistive Device or assistant Required, Normal Speed and Rhythm, No Falling, No Freezing of Gait, No Difficulty when performing Dual Tasking.  
@@ -62,7 +62,7 @@ We extract keywords from clinical gait notions to make per-class automatic promp
   Gait is noticeably impaired and impairments are consistent and evident, Marked Slowness or Shuffling, Frequent Freezing Episodes, Assistance device or from others required, Irregular Steps and Reduced Arm Swing, Possible Balance Problems, may still possible to walk alone. 
   </details>
 
-* Dementia subtyping
+* **Dementia subtyping**
   <details>
   <summary><b>Healthy</b></summary>
   consistent stride length and minimal sway, regular and consistent cadence, fast and consistent walking speed, symmetrical gait with even distribution of weight and movement, consistent rhythm, natural arm swing in synchronisation with leg movements
