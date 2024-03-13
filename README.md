@@ -6,11 +6,12 @@ Enhancing Gait Video Analysis in Neurodegenerative Diseases by Knowledge Augment
 
 * <a href="https://anonymous.4open.science/w/GaitAnalysisVLM-CC83/updrs.html" target="_blank">MDS-UPDRS Gait Scoring</a>
 
-<img src="updrs.png" width="480" height="300")/>
-</img>
+<figure><img src="updrs.png" width="480" height="300")/></figure>
+
   
 * <a href="https://anonymous.4open.science/w/GaitAnalysisVLM-CC83/diag.html" target="_blank">Dementia subtyping</a>
-![](diag.png)
+
+<figure><img src="diag.png" width="480" height="300")/></figure>
 
 ## Per-class clinical gait notions
 We employ specific clinical gait notions to develop per-class learnable prompts for prompt tuning. These notions have been generated using ChatGPT-4, then subsequently filtered, modified, and validated by a neurologist.
