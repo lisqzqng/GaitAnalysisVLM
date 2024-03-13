@@ -6,3 +6,9 @@ Enhancing Gait Video Analysis in Neurodegenerative Diseases by Knowledge Augment
   https://anonymous.4open.science/w/GaitAnalysisVLM-CC83/updrs.html
 * **Dementia subtyping:** 
   https://anonymous.4open.science/w/GaitAnalysisVLM-CC83/diag.html
+## Per-class clinical gait notions
+* [MDS-UPDRS Gait Scoring](clinical_notions/MDS-UPDRS_Gait.txt)
+* [Dementia subtyping](clinical_notions/Diagnostic_groups.txt)
+## Per-class automatic prompts
+* [MDS-UPDRS Gait Scoring](Automatic_prompts/MDS-UPDRS_Gait.txt)
+* [Dementia subtyping](Automatic_prompts/Diagnostic_groups.txt)
