@@ -13,7 +13,7 @@ Enhancing Gait Video Analysis in Neurodegenerative Diseases by Knowledge Augment
 
 <figure><img src="diag.png" width="687" height="394")/></figure>
 
-## Per-class clinical gait notions
+## Per-class Clinical Gait Notions
 We employ specific clinical gait notions to develop per-class learnable prompts for prompt tuning. These notions have been generated using ChatGPT-4, then subsequently filtered, modified, and validated by a neurologist.
 
 * **MDS-UPDRS Gait Scoring**
@@ -54,7 +54,7 @@ We employ specific clinical gait notions to develop per-class learnable prompts 
   </details>
 
 
-## Per-class automatic prompts
+## Per-class Automatic Prompts
 We extract keywords from clinical gait notions to make per-class automatic prompts.
 
 * **MDS-UPDRS Gait Scoring**
