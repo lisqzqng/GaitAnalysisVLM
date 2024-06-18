@@ -7,7 +7,7 @@ Enhancing Gait Video Analysis in Neurodegenerative Diseases by Knowledge Augment
 * <a href="./updrs.html" target="_blank">MDS-UPDRS Gait Scoring</a>
 
 <div>
-  <iframe id="inlineUPDRS" title="inlineUPDRS" width="900" height="900" src="https://anonymous.4open.science/w/GaitAnalysisVLM-CC83/updrs.html"></iframe>
+  <iframe id="inlineUPDRS" title="inlineUPDRS" width="2000" height="2000" src="https://anonymous.4open.science/w/GaitAnalysisVLM-CC83/updrs.html"></iframe>
 </div>
 
   
