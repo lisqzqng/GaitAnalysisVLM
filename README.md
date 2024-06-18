@@ -6,7 +6,20 @@ Enhancing Gait Video Analysis in Neurodegenerative Diseases by Knowledge Augment
 
 * <a href="./updrs.html" target="_blank">MDS-UPDRS Gait Scoring</a>
 
-<div w3-include-html="./updrs.html"></div>
+<html> 
+  <head> 
+    <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("./updrs.html"); 
+    });
+    </script> 
+  </head> 
+
+  <body> 
+     <div id="includedContent"></div>
+  </body> 
+</html>
 
   
 * <a href="https://anonymous.4open.science/w/GaitAnalysisVLM-CC83/diag.html" target="_blank">Dementia subtyping</a>
