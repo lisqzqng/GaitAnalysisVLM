@@ -4,9 +4,9 @@ Enhancing Gait Video Analysis in Neurodegenerative Diseases by Knowledge Augment
 **We visualize the numerical text embeddings projected by MLPs learned through cross-modal training.** We leverage Uniform Manifold Approximation and Projection (UMAP) to reduce the embedding dimension from 64 to 3.
 <br>Clink the links for interactive graphs.
 
-* <a href="https://anonymous.4open.science/w/GaitAnalysisVLM-CC83/updrs.html" target="_blank">MDS-UPDRS Gait Scoring</a>
+* <a href="./updrs.html" target="_blank">MDS-UPDRS Gait Scoring</a>
 
-<figure><img src="updrs.png" width="687" height="394")/></figure>
+<div w3-include-html="./updrs.html"></div>
 
   
 * <a href="https://anonymous.4open.science/w/GaitAnalysisVLM-CC83/diag.html" target="_blank">Dementia subtyping</a>
