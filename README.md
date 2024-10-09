@@ -1,5 +1,5 @@
 # GaitAnalysisVLM
-Enhancing Gait Video Analysis in Neurodegenerative Diseases by Knowledge Augmentation in Vision Language Model
+This repository contains the official implementation and supplementaries of [“Enhancing Gait Video Analysis in Neurodegenerative Diseases by Knowledge Augmentation in Vision Language Model”](https://link.springer.com/chapter/10.1007/978-3-031-72086-4_24)（MICCAI 2024）
 
 ## Per-class Clinical Gait Notions
 We employ specific clinical gait notions to develop per-class learnable prompts for prompt tuning. These notions have been generated using ChatGPT-4, then subsequently filtered, modified, and validated by a neurologist.
@@ -81,3 +81,30 @@ We extract keywords from clinical gait notions to make per-class automatic promp
   <summary><b>Alzheimer's Disease</b></summary>
   slowed walking speed, difficulty walking while speaking, irregular cadence, postural instability, balance problem, decline in spatial navigation, risk of falls
   </details>
+  
+## Code Release
+The extension of this conference paper is currently in the rebuttal phase for a journal. We will release the training and inference code after the rebuttal process has been completed.
+
+## References
+This project mainly benefits from the following resources: 
+  - Pretrained CLIP-400M, CLIP model and the visual prompts are borrowed from [Vita-CLIP]([https://github.com/nkolot/SPIN](https://github.com/TalalWasim/Vita-CLIP)).
+  - The RoBERTa model as well as the functions for embeddings generation from per-class text descriptions is borrowed from [KEPLER](https://github.com/THU-KEG/KEPLER).
+  - Text feature decoder model is from [DeCap](https://github.com/dhg-wei/DeCap).
+
+## Citation
+
+```
+@InProceedings{WangEnhancingMICCAI2024,
+                 author = { Wang, Diwei and Yuan, Kun and Muller, Candice and Blanc, Frédéric and Padoy, Nicolas and Seo, Hyewon },
+                 title = { Enhancing Gait Video Analysis in Neurodegenerative Diseases by Knowledge Augmentation in Vision Language Model }, 
+                 booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024},
+                 year = {2024},
+                 publisher = {Springer Nature Switzerland},
+                 volume = { LNCS 15005 },
+                 month = {October},
+                 pages = { pending },
+              }
+```
+
+**Note:**
+This code is only used for **academic purposes**, people cannot use this code for anything that might be considered commercial use.
